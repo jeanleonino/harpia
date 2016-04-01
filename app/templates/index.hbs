@@ -1,0 +1,7 @@
+{{outlet}}
+
+{{#if session.isAuthenticated }}
+
+{{else}}
+  <p>Você não está conectado, por favor, {{#link-to 'login'}}</p>
+{{/if}}
